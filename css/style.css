@@ -106,6 +106,10 @@ a {
   font-size: 14px;
 }
 
+.promo {
+  margin-bottom: 150px;
+}
+
 .promo__tittle {
   margin-top: 40px;
   margin-bottom: 210px;
@@ -137,18 +141,55 @@ a {
   border-radius: 3px;
 }
 
+.services__tittle__little {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  text-align: center;
+}
+
 .services__all {
+  margin-top: 100px;
+  margin-bottom: 150px;
   display: flex;
   justify-content: space-between;
 }
 
-.services__col-inside-two {
-  background: url("../img/unsplash_TnOyyEtrKd0.png") no-repeat center;
+.services__col_two {
+  max-width: 416px;
+  width: 100%;
 }
 
 .services__txt {
-  max-width: 260px;
+  max-width: 336px;
   width: 100%;
-  padding: 194px 40px 30px;
+  font-family: 'ElMessiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.tired__back {
+  background: linear-gradient(to top, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url("../img/unsplash_TnOyyEtrKd0 (2).png") no-repeat center;
+  padding: 194px 40px 30px 40px;
+  border: none;
+  border-radius: 10px;
+}
+
+.tired__back_two {
+  padding-top: 160px;
+}
+
+.tired__mar {
+  margin-top: 24px;
+}
+
+.tired__alone {
+  background: linear-gradient(to top, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url("../img/unsplash_TnOyyEtrKd0.png") no-repeat center;
+  border: none;
+  border-radius: 10px;
+  padding: 456px 108px 50px 50px;
 }
 /*# sourceMappingURL=style.css.map */
