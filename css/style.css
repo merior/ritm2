@@ -78,6 +78,20 @@ a {
   font-family: 'ProximaNova';
 }
 
+.button__white {
+  background-color: white;
+}
+
+.button__card {
+  font-family: 'ProximaNova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 140%;
+  padding: 9px 15px;
+  color: #018ABE;
+}
+
 .tittle {
   font-family: 'ElMessiri';
   color: white;
@@ -355,5 +369,186 @@ a {
   font-weight: 700;
   font-size: 42px;
   line-height: 140%;
+}
+
+.price {
+  margin-bottom: 150px;
+}
+
+.price__container {
+  max-width: 1076px;
+  width: 100%;
+  margin: auto;
+}
+
+.price__inside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price__tittle {
+  font-family: 'ElMessiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.price__txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 416px;
+  width: 100%;
+}
+
+.price__txt-inside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price__txt--txt {
+  font-family: 'ProximaNova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.price__span {
+  color: white;
+  font-family: 'ElMessiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.price__img {
+  display: flex;
+  flex-direction: column;
+}
+
+.price__img-txt {
+  margin: 30px 0 0 0;
+  color: white;
+  font-family: 'ElMessiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+}
+
+.price__margin {
+  margin-bottom: 31px;
+}
+
+.contacts__container {
+  max-width: 1296px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 90px;
+}
+
+.contacts__map__img {
+  position: relative;
+}
+
+.contacts__loc {
+  position: absolute;
+  top: 4480px;
+  left: 637px;
+}
+
+.contacts__loc:last-child {
+  position: absolute;
+  top: 4786px;
+  left: 682px;
+}
+
+.contacts__cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 392px;
+  width: 100%;
+}
+
+.contacts__card {
+  padding: 35px 40px;
+  background-color: #018ABE;
+  border-radius: 10px;
+  border: none;
+}
+
+.contacts__card-tittle {
+  font-family: 'ElMessiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 21px;
+}
+
+.contacts__card-txt {
+  font-family: 'ProximaNova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  margin-bottom: 21px;
+}
+
+.contacts__card-txt::before {
+  content: '';
+  position: relative;
+  background: url("../img/whte/carbon_location-filled.svg") no-repeat center left;
+  padding-right: 40px;
+}
+
+.contacts__card-txt:nth-child(2)::before {
+  content: '';
+  position: relative;
+  background: url("../img/whte/Spb_metro_logo 1.svg") no-repeat center left;
+  padding-right: 40px;
+}
+
+.contacts__card-txt:last-child {
+  margin-bottom: 30px;
+}
+
+.contacts__card-txt:last-child::before {
+  content: '';
+  position: relative;
+  background: url("../img/whte/bi_calendar-week-fill.svg") no-repeat center left;
+  padding-right: 40px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__txt {
+  color: white;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+}
+
+.footer__did {
+  color: white;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 135%;
 }
 /*# sourceMappingURL=style.css.map */

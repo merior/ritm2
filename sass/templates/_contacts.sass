@@ -1,0 +1,67 @@
+.contacts
+    &__container
+        max-width: 1296px
+        display: flex
+        justify-content: space-between
+        margin: auto
+        margin-bottom: 90px
+    &__map
+        &__img
+            position: relative
+    &__loc
+        position: absolute
+        top: 4480px
+        left: 637px
+        &:last-child
+            position: absolute
+            top: 4786px
+            left: 682px
+    &__cards
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        max-width: 392px
+        width: 100%
+    &__card
+        // max-width: 392px
+        // width: 100%
+        padding: 35px 40px
+        background-color: #018ABE
+        border-radius: 10px
+        border: none
+        &-tittle
+            // max-width: 302px
+            // width: 100%
+            font-family: 'ElMessiri'
+            font-style: normal
+            font-weight: 700
+            font-size: 24px
+            line-height: 140%
+            margin-bottom: 21px
+        &-txt
+            font-family: 'ProximaNova'
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            line-height: 135%
+            margin-bottom: 21px
+            // margin-left: 40px
+            &::before
+                content: ''
+                position: relative
+                background: url('../img/whte/carbon_location-filled.svg') no-repeat center left
+                padding-right: 40px
+            &:nth-child(2)
+                &::before
+                    content: ''
+                    position: relative
+                    background: url('../img/whte/Spb_metro_logo 1.svg') no-repeat center left
+                    padding-right: 40px
+            &:last-child
+                margin-bottom: 30px
+                &::before
+                   content: ''
+                   position: relative
+                   background: url('../img/whte/bi_calendar-week-fill.svg') no-repeat center left
+                   padding-right: 40px
+        
