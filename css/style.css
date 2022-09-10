@@ -97,9 +97,23 @@ a {
   color: white;
 }
 
+.span {
+  font-family: 'ProximaNova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 135%;
+  padding: 6px 12px;
+}
+
 .header {
   margin-top: 30px;
   margin-bottom: 50px;
+}
+
+.header__border {
+  padding-bottom: 41px;
+  border-bottom: 1px solid #FFFFFF;
 }
 
 .logo__img {
@@ -550,5 +564,111 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 135%;
+}
+
+.footer__border {
+  padding-top: 30px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.blog__cards {
+  display: flex;
+  border: 2px solid #018ABE;
+  border-radius: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+.blog__cards:last-child {
+  margin-bottom: 120px;
+}
+
+.blog__card {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.blog__card-tittle {
+  margin-bottom: 20px;
+  font-family: 'ElMessiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.blog__card-txt {
+  margin-bottom: 40px;
+  max-width: 563px;
+  width: 100%;
+  font-family: 'ProximaNova';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.blog__tittle {
+  font-family: 'ElMessiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.blog__date {
+  margin-bottom: 30px;
+}
+
+.newformat {
+  margin-bottom: 161px;
+}
+
+.newformat__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newformat__card-tittle {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.newformat__card-txt {
+  font-family: 'ProximaNova';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  max-width: 525px;
+  width: 100%;
+}
+
+.news__all {
+  margin-top: 60px;
+}
+
+.news__date {
+  margin-top: 139px;
+}
+
+.news__two {
+  padding-top: 0;
+}
+
+.tired__news {
+  padding: 30px 45px 30px 35px;
 }
 /*# sourceMappingURL=style.css.map */
